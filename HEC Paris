@@ -1,0 +1,73 @@
+# 🎓 HEC Paris — Executive Master in Innovation & Entrepreneurship (EMSIE)
+
+> **Program:** Executive Master in Innovation and Entrepreneurship  
+> **Institution:** HEC Paris  
+> **Graduation Target:** December 2026  
+> **Status:** In Progress
+
+---
+
+## 🗺️ Graduation Roadmap
+
+| Semester | Period | Focus | Status |
+|----------|--------|-------|--------|
+| Module 1 | 2025 | Foundations | ✅ Done |
+| Module 2 | Early 2026 | Core courses | 🔄 Current |
+| Module 3 | Mid 2026 | Specialization | 📋 Upcoming |
+| Final Project | Q4 2026 | Thesis/Capstone | 📋 Upcoming |
+
+---
+
+## 📚 Key Courses & Notes
+
+> Add each course as a file in `/courses/` folder
+
+### Active This Semester
+- [ ] Course: _______________
+- [ ] Course: _______________
+- [ ] Course: _______________
+
+---
+
+## 🧠 Key Concepts Learned
+
+> Update this section after each module — your personal knowledge map
+
+### Innovation Frameworks
+- (add as you learn)
+
+### Entrepreneurship Principles
+- (add as you learn)
+
+### Strategy Tools
+- (add as you learn)
+
+---
+
+## 📝 Assignments Tracker
+
+| Assignment | Course | Due Date | Status |
+|------------|--------|----------|--------|
+| | | | |
+
+---
+
+## 🔗 Connections to Your Work
+
+> How does HEC learning apply to PEARL project and FAO?
+
+- Innovation thinking → new approaches to farmer organization development
+- Entrepreneurship → applying to farmer cooperative business models
+- Strategy frameworks → PEARL Component 2 strategic planning
+
+---
+
+## 💡 Coach Prompt for HEC Sessions
+
+```
+Coach session - HEC Paris
+I am studying: [course/topic]
+My challenge is: [specific question or concept]
+I want to: [understand / apply / write assignment on] this topic
+Context: I work in agricultural development (FAO Cambodia, PEARL project)
+```
