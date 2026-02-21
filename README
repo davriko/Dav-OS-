@@ -1,0 +1,119 @@
+# 🧠 Dav-OS — Davron's Personal Development Operating System
+
+> **Vision:** Become a P5 FAO Leader by 2030  
+> **System:** GitHub as knowledge base + Claude as personal coach  
+> **Last Updated:** February 2026
+
+---
+
+## 🎯 The 2030 Mission
+
+| Goal | Deadline | Status |
+|------|----------|--------|
+| Graduate HEC Paris EMIE | December 2026 | 🔄 In Progress |
+| French B2 Certification | December 2027 | 🔄 In Progress |
+| PgMP Certification | 2027 | 📋 Planned |
+| FAO P5 Leadership Role | 2030 | 🎯 Target |
+
+---
+
+## 📁 System Structure
+
+```
+Dav-OS/
+├── README.md                    ← Master dashboard (this file)
+│
+├── 01-HEC-Paris/                ← Executive Master EMIE
+│   ├── README.md                ← Program overview & graduation plan
+│   ├── courses/                 ← Notes per course/module
+│   ├── assignments/             ← Key assignments tracker
+│   └── thesis/                  ← Final project/thesis notes
+│
+├── 02-French/                   ← B2 Certification Journey
+│   ├── README.md                ← Roadmap A1→B2
+│   ├── vocabulary/              ← Word lists by topic
+│   ├── conversations/           ← Speaking scripts & dialogues
+│   ├── grammar/                 ← Key grammar rules
+│   └── daily-log/               ← Daily 30-min session records
+│
+├── 03-FAO-Knowledge/            ← FAO Procedures & Institutional Knowledge
+│   ├── README.md                ← Key manuals index
+│   ├── procurement/             ← MS 502, procurement rules
+│   ├── hr-admin/                ← HR policies, contracts, benefits
+│   ├── project-management/      ← FAO PM frameworks, GCF rules
+│   └── key-contacts/            ← Institutional network map
+│
+├── 04-Leadership/               ← Leadership Development
+│   ├── README.md                ← Leadership growth plan
+│   ├── frameworks/              ← Key leadership models & tools
+│   ├── books/                   ← Book summaries & key lessons
+│   ├── reflections/             ← Personal leadership journal
+│   └── mentors/                 ← Lessons from mentors & role models
+│
+├── 05-PgMP/                     ← Program Management Professional
+│   ├── README.md                ← PgMP study plan & exam strategy
+│   ├── domains/                 ← 3 PgMP domains: Strategy, Benefits, Stakeholders
+│   ├── practice-questions/      ← Question banks & answers
+│   └── frameworks/              ← PMI Standard for Program Management
+│
+└── 06-Progress/                 ← Master Progress Tracker
+    ├── README.md                ← Monthly reviews
+    ├── weekly-log.md            ← Weekly check-ins
+    └── coaching-sessions.md     ← Claude coaching session notes
+```
+
+---
+
+## 🤖 How to Use Claude as Your Coach
+
+Each coaching session, paste this into Claude:
+
+```
+Coach session - [date]
+Area: [HEC / French / FAO / Leadership / PgMP]
+Time available: [X minutes]
+Context: [what you last studied or current challenge]
+Goal today: [what you want to achieve this session]
+```
+
+Claude will run a focused coaching session, then give you:
+- Key takeaways to add to your notes
+- 3 things to practice before next session
+- Where to update your GitHub files
+
+---
+
+## 📊 Current Focus (February 2026)
+
+| Priority | Area | This Month's Goal |
+|----------|------|-------------------|
+| 🔴 HIGH | HEC Paris | Complete current module assignments |
+| 🔴 HIGH | FAO Knowledge | Master procurement & GCF compliance |
+| 🟡 MEDIUM | French | Build daily 30-min habit, reach solid A2 |
+| 🟡 MEDIUM | Leadership | Read 1 leadership book, extract frameworks |
+| 🟢 PLANNED | PgMP | Begin domain mapping & eligibility prep |
+
+---
+
+## 💡 Coaching Philosophy
+
+> "Systematic progress beats occasional intensity."
+
+- **30 min/day** beats 4 hours on weekends
+- **One topic per session** — deep beats wide
+- **Write it down** — if it's not in the repo, it didn't happen
+- **Weekly review** — every Sunday, update progress tracker
+- **Monthly reset** — adjust priorities based on what's urgent
+
+---
+
+## 🏆 Milestones Achieved
+
+- [ ] Dav-OS system created (February 2026)
+- [ ] First coaching session completed
+- [ ] All 5 areas have starter notes
+- [ ] First monthly review done
+
+---
+
+*"The secret of getting ahead is getting started." — Mark Twain*
