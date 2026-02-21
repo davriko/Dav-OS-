@@ -1,0 +1,72 @@
+# 📋 FAO Knowledge Base — Procedures, Manuals & Institutional Knowledge
+
+> **Purpose:** Master FAO rules, GCF compliance, and institutional knowledge  
+> **Why:** Essential for P5 leadership + daily PEARL project work
+
+---
+
+## 🗂️ Key Areas
+
+### 1. Procurement (MS 502)
+- FAO procurement rules and thresholds
+- ITB/RFP/LTA processes
+- GCF fiduciary standards
+- → Folder: `/procurement/`
+
+### 2. Project Management
+- FAO project cycle management
+- GCF reporting requirements
+- Results-based management
+- → Folder: `/project-management/`
+
+### 3. HR & Administration
+- FAO staff regulations
+- Performance management (PACE)
+- Contract types and benefits
+- → Folder: `/hr-admin/`
+
+### 4. Financial Management
+- Budget management and revisions
+- Delivery rate tracking
+- Travel and operational costs
+- → Folder: `/financial/`
+
+---
+
+## 🔑 Critical Rules I Must Know
+
+> Add entries as you learn them
+
+### Procurement Thresholds
+| Method | Threshold |
+|--------|-----------|
+| Direct purchase | Under $2,500 |
+| Shopping | $2,500–$30,000 |
+| ITB/RFP | Above $30,000 |
+| LTA | Repeat purchases |
+
+### GCF Key Requirements
+- (add as you learn)
+
+---
+
+## 📖 Priority Manuals to Study
+
+- [ ] MS 502 — Procurement manual (most important)
+- [ ] FAO Project Management Manual
+- [ ] GCF Accreditation Master Agreement
+- [ ] PEARL Project Document (FP199)
+- [ ] FAO Staff Regulations
+
+---
+
+## 💡 Coach Prompt for FAO Sessions
+
+```
+Coach session - FAO Knowledge
+Topic: [procurement / project management / HR / finance]
+My question: [specific procedure or rule I need to understand]
+Context: I manage USD 9.23M Component 2 of PEARL project (GCF-funded)
+I need to: [understand the rule / apply it to a real situation]
+Situation: [describe your real case if applicable]
+```
