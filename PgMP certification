@@ -1,0 +1,98 @@
+# 📊 PgMP — Program Management Professional Certification
+
+> **Certification:** PMI Program Management Professional (PgMP)  
+> **Target Year:** 2027  
+> **Status:** Planning phase
+
+---
+
+## 📋 Eligibility Requirements
+
+| Requirement | Needed | My Status |
+|-------------|--------|-----------|
+| Secondary degree | 4 yrs program mgmt exp | ✅ 19 years experience |
+| 4-year degree | 4 yrs program mgmt exp | ✅ |
+| Program management | 4 years (4,500 hrs) | ✅ Well exceeded |
+| Project management | 4 years (6,000 hrs) | ✅ Well exceeded |
+
+**Good news:** With 19 years of experience you are likely eligible now!
+
+---
+
+## 🗺️ Study Roadmap
+
+| Phase | Timeline | Focus |
+|-------|----------|-------|
+| 1. Eligibility & Application | Q2 2026 | Gather evidence, apply to PMI |
+| 2. Domain Study | Q3–Q4 2026 | Master 3 PgMP domains |
+| 3. Practice Tests | Q1 2027 | 500+ practice questions |
+| 4. Exam | Q2 2027 | Pass PgMP exam |
+
+---
+
+## 📚 The 3 PgMP Domains
+
+### Domain 1: Program Strategy Alignment (16%)
+- Aligning program to organizational strategy
+- Benefits identification
+- Program business case
+- → Folder: `/domains/01-strategy/`
+
+### Domain 2: Benefits Management (16%)
+- Benefits planning, delivery, transition
+- Measuring outcomes vs outputs
+- Sustaining benefits beyond project
+- → Folder: `/domains/02-benefits/`
+
+### Domain 3: Stakeholder Engagement (16%)
+- Stakeholder identification & analysis
+- Communication planning
+- Managing stakeholder expectations
+- → Folder: `/domains/03-stakeholders/`
+
+### Domain 4: Governance (16%)
+- Program governance frameworks
+- Reporting structures
+- Decision-making authority
+- → Folder: `/domains/04-governance/`
+
+### Domain 5: Program Life Cycle Management (36%)
+- Program formulation, planning, execution, closure
+- Component management
+- Risk and issue management
+- → Folder: `/domains/05-lifecycle/`
+
+---
+
+## 🔗 PgMP ↔ Your PEARL Experience
+
+> PEARL is a perfect PgMP case study! Use it throughout exam prep.
+
+| PgMP Domain | PEARL Application |
+|-------------|-------------------|
+| Strategy Alignment | GCF FP199 aligned to Cambodia climate policy |
+| Benefits Management | 450,000 farmers, 15% income increase |
+| Stakeholder Engagement | MAFF, MoE, GCF, 124 FOs, buyers |
+| Governance | PSC, PMU, FAO oversight structure |
+| Life Cycle | 6-year program, 3 components, 4 outputs |
+
+---
+
+## 📖 Study Resources
+
+- [ ] *The Standard for Program Management* (PMI) — must read
+- [ ] *PgMP Exam Practice Test and Study Guide* — Thayer/Thayer
+- [ ] PMI online practice exams
+- [ ] PgMP study group (find on LinkedIn/PMI community)
+
+---
+
+## 💡 Coach Prompt for PgMP Sessions
+
+```
+Coach session - PgMP
+Domain: [Strategy / Benefits / Stakeholders / Governance / Life Cycle]
+Topic: [specific concept or knowledge area]
+I want to: [understand the concept / practice exam question / apply to PEARL]
+My experience: I manage PEARL program (GCF-funded, $42.8M, Cambodia)
+```
