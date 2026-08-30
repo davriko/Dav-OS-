@@ -1,0 +1,45 @@
+name: Outlook → Google Calendar
+
+on:
+  schedule:
+    # 23:00 UTC = 06:00 Asia/Bangkok, so the mirror is current before the day starts.
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report what would change without writing to Google"
+        type: boolean
+        default: false
+
+concurrency:
+  group: outlook-to-google-calendar
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Mirror Outlook into Google Calendar
+        env:
+          OUTLOOK_ICS_URL: ${{ secrets.OUTLOOK_ICS_URL }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          TARGET_CALENDAR_SUMMARY: ${{ vars.TARGET_CALENDAR_SUMMARY || 'Outlook (mirror)' }}
+          MIRROR_DETAIL: ${{ vars.MIRROR_DETAIL || 'full' }}
+          MIRROR_TIME_ZONE: ${{ vars.MIRROR_TIME_ZONE || 'Asia/Bangkok' }}
+          WINDOW_DAYS_BACK: ${{ vars.WINDOW_DAYS_BACK || '7' }}
+          WINDOW_DAYS_AHEAD: ${{ vars.WINDOW_DAYS_AHEAD || '180' }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: python3 scripts/outlook_to_google_calendar.py
